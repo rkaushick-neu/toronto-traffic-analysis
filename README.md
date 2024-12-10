@@ -1,5 +1,9 @@
 # Toronto Traffic Analysis in Hadoop
 
+## Dataset: Toronto Traffic Volumes at Intersections for All Modes
+This dataset can be found in the City of Toronto Open Data Portal here:
+https://open.toronto.ca/dataset/traffic-volumes-at-intersections-for-all-modes/
+
 ## Data Description
 | Sr. No | Column                                           | Datatype       | Description                                                                                           |
 |--------|--------------------------------------------------|----------------|-------------------------------------------------------------------------------------------------------|
@@ -32,3 +36,4 @@
 |        |                                                 |                | - `l`: turning left                                                                                  |
 |        |                                                 |                | - `t`: going straight (thru)                                                                         |
 |        |                                                 |                | - `r`: turning right                                                                                 |
+
