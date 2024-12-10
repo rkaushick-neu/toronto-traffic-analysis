@@ -19,11 +19,6 @@ public class IntersectionCountMapper extends Mapper<LongWritable, Text, Text, In
     private static Text locationIntersection = new Text();
 
     @Override
-    public void run(Context context) throws IOException, InterruptedException {
-        
-    }
-
-    @Override
     protected void cleanup(Context context) throws IOException, InterruptedException {
         
     }
@@ -43,9 +38,6 @@ public class IntersectionCountMapper extends Mapper<LongWritable, Text, Text, In
 
     @Override
     protected void setup(Context context) throws IOException, InterruptedException {
-        
+        System.out.println("Mapper is starting.");
     }
-    
-    
-    
 }

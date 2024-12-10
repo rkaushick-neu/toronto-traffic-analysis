@@ -17,13 +17,8 @@ public class IntersectionCountReducer extends Reducer<Text, IntWritable, Text, I
     private static IntWritable sumIntWritable = new IntWritable();
 
     @Override
-    public void run(Context context) throws IOException, InterruptedException {
-        
-    }
-
-    @Override
     protected void cleanup(Context context) throws IOException, InterruptedException {
-        
+        System.out.println("Reducer has completed execution.");
     }
 
     @Override
@@ -38,9 +33,6 @@ public class IntersectionCountReducer extends Reducer<Text, IntWritable, Text, I
 
     @Override
     protected void setup(Context context) throws IOException, InterruptedException {
-        
-    }
-    
-    
-    
+        System.out.println("Reducer is starting...");
+    }  
 }
